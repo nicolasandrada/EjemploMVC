@@ -31,7 +31,7 @@ namespace EjemploMVC.Controllers
             double num2 = Convert.ToDouble(b);
             if (op == "Suma")
             {
-                ViewBag.Respuesta = "sumaron "+num1 +" mas "+ num2+"el resultado es "+(num1+num2) ;
+                ViewBag.Respuesta = "sumaron los numeros "+num1 +" mas "+ num2+"el resultado es "+(num1+num2) ;
             }
             return View();
         }
