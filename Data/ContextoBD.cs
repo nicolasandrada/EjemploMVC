@@ -6,7 +6,7 @@ namespace EjemploMVC.Data
 {
     public class ContextoBD: DbContext
     {
-        public ContextoBD(DbContextOptions<ContextoBD> options ): base( options )
+        public ContextoBD(DbContextOptions<ContextoBD> optiones ): base( optiones )
         {
 
         }
