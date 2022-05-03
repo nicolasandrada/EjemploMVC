@@ -11,6 +11,6 @@ namespace EjemploMVC.Data
 
         }
 
-        public DbSet<Profesor> profesors { get; set; }
+        public DbSet<Docente> profesores { get; set; }
     }
 }
